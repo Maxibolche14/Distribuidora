@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*background-color: orange;*/
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 15% 100% 20%;
+      grid-template-rows: 15% 100% 20%;
+  grid-row-gap: 5px;
+      grid-template-areas: "header header" "main main" "footer footer";
+  width: 100%;
+}
+
+.Menu-container {
+  background-color: white;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Menu-container .Menu-item {
+  /*background-color: black;*/
+  color: white;
+  border: 4px solid white;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
+.Menu-container .Menu-item a {
+  color: black;
+}
+
+.Img-Logo {
+  height: 90px;
+  width: 100%;
+}
+
+.margen-section {
+  margin-top: 40px;
+}
+
+.margen-section .Grid-Presentacion {
+  background: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px;
+  gap: 5px;
+  text-align: -webkit-center;
+}
+
+.margen-section .Grid-Presentacion h5 {
+  font-family: fantasy;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.margen-section .Grid-Presentacion p {
+  -webkit-text-size-adjust: 50%;
+     -moz-text-size-adjust: 50%;
+      -ms-text-size-adjust: 50%;
+          text-size-adjust: 50%;
+  font-family: 'AnotherDay';
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.footer-section {
+  margin-top: 70px;
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  color: orange;
+}
+
+#header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+}
+
+#main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+}
+
+#footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+/*# sourceMappingURL=nosotros.css.map */

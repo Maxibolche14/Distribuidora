@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
-    <link rel="stylesheet" href="./css/nosotros.css">
+    <link rel="stylesheet" href="./scss/nosotros.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -14,53 +14,30 @@
 
 <body class="grid">
     <header id="header">
-        <nav class="navbar navbar-danger navbar-expand-lg bg-warning">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img class="Img-Logo" src="./Imagenes/Dist.PNG" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" class="" href="contacto.html">CONTACTO</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="productos.html">Productos</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-danger" type="submit">Buscar</button>
-                    </form>
-                </div>
+        <nav class="Menu-container">
+            <div class="Menu-item">
+                <a href="index.html"> INICIO </a>
+            </div>
+            <div class="Menu-item">
+                <a href="nosotros.html"> NOSOTROS </a>
+            </div>
+            <div class="Menu-intem">
+                <img class="Img-Logo" src="./Imagenes/Dist.PNG" alt="">
+            </div>
+            <div class="Menu-item">
+                <a href="productos.html"> PRODUCTOS </a>
+            </div>
+            <div class="Menu-item">
+                <a href="contacto.html"> CONTACTO </a>
             </div>
         </nav>
     </header>
-
     <main id="main">
         <section class="margen-section">
             <section class="Grid-Presentacion">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card border-success mb-3" style="max-width: 700px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-md-4" style="margin: auto;">
                             <img src="./Imagenes/Mision.png" class="img-fluid rounded-start" alt="Mision">
                         </div>
                         <div class="col-md-8">
@@ -73,47 +50,45 @@
                                     contribuyendo de tal forma al desarrollo de las marcas de nuestros proveedores con
                                     compromiso y honestidad.
                                 </p>
-                                <p class="card-text"><small class="text-muted"></small></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="Grid-Presentacion">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card border-success mb-3" style="max-width: 700px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-md-4" style="margin: auto;">
                             <img src="./Imagenes/Vision.png" class="img-fluid rounded-start" alt="Vision">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Vision</h5>
-                                <p class="card-text">Ser reconocida como la mejor distribuidora de productos de gran consumo en nuestra área de cobertura, 
+                                <p class="card-text">Ser reconocida como la mejor distribuidora de productos de gran
+                                    consumo en nuestra área de cobertura,
                                     siendo la primera opción de compra entre nuestros clientes.</p>
-                                <p class="card-text"><small class="text-muted"></small></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="Grid-Presentacion">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card border-success mb-3" style="max-width: 700px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-md-4" style="margin: auto;">
                             <img src="./Imagenes/Valores.png" class="img-fluid rounded-start" alt="Valores">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Valores</h5>
-                                <p class="card-text">●	Respeto a los clientes, empleados y proveedores
-                                    ●	Compromiso
-                                    ●	Confiabilidad
-                                    ●	Calidad
-                                    ●	Trabajo en equipo
-                                    ●	Vocación de servicio
-                                    ●	Mejora constante
-                                    ●	Orientación al cliente</p>
-                                <p class="card-text"><small class="text-muted"></small></p>
+                                <p class="card-text" style="text-align: left ;">● Respeto a los clientes, empleados y proveedores</p>
+                                <p class="card-text" style="text-align: left ;">● Compromiso</p>
+                                <p class="card-text" style="text-align: left ;">● Confiabilidad</p>
+                                <p class="card-text" style="text-align: left ;">● Calidad</p>
+                                <p class="card-text" style="text-align: left ;">● Trabajo en equipo</p>
+                                <p class="card-text" style="text-align: left ;">● Vocación de servicio</p>
+                                <p class="card-text" style="text-align: left ;">● Mejora constante</p>
+                                <p class="card-text" style="text-align: left ;">● Orientación al cliente</p>
                             </div>
                         </div>
                     </div>
