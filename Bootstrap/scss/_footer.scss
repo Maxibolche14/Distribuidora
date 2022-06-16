@@ -1,8 +1,10 @@
+@import 'mapa';
+
 .footer-section {
     margin-top: 70px;
-    background-color: black;
+    background-color: map-get($colores,footerbg);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    color: orange;
+    color: map-get($colores,footertext);
 }
