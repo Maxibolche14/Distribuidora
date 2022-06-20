@@ -12,7 +12,7 @@
         Desde el año 2000 nos hemos dedicado a proveer una alta variedad de productos, de
         diferentes maras y portafolio.">
     <meta name="keywords" content=" distribuidora, distribución, productos">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./scss/index/index.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -44,24 +44,32 @@
         <!--Container -->
         <section class="margen-section">
             <div class="container">
-                <div class="row">
+                <div class="row row-cols-1">
                     <div class="col p-1">
                         <div class="Grid-Presentacion">
                             <div class="Grid-Presentacion-Item">
-                                <img class="Img-Presentacion" src="./Imagenes/Gondola.webp">
+                                <img class="Img-Presentacion" src="Imagenes/gondolas/Gondola1.webp">
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="Grid-Presentacion-Item">
-                            <p><strong>Bienvenidos a </strong> <em> Distribuidora el Canario </em>
-                            <p>Somos una Distribuidora de productos en general, ubicada en el Departamento de Florida.
-                                Desde el año 2000 nos hemos dedicado a proveer una alta variedad de productos, de
-                                diferentes
-                                maras y portafolio.</p>
+                        <div class="Grid-Presentacion">
+                            <div class="Grid-Presentacion-Item">
+                                <p><strong><em>Bienvenidos a Distribuidora el Canario </em> </strong>
+                                <p>Somos una Distribuidora de productos en general, ubicada en el Departamento de
+                                    Florida.
+                                    Desde el año 2000 nos hemos dedicado a proveer una alta variedad de productos, de
+                                    diferentes
+                                    maras y portafolio.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="margen-section2">
+            <div class="texto2">
+                <h2>PRODUCTOS DESTACADOS</h2>
             </div>
         </section>
         <section class="margen-section">
@@ -83,9 +91,14 @@
                 </div>
             </article>
         </Section>
+        <section class="margen-section2">
+            <div class="texto2">
+                <h2>MARCAS ASOCIADAS</h2>
+            </div>
+        </section>
         <Section class="margen-section">
             <div class="texto1">
-                <h2> MARCAS ASOCIADAS</h2>
+                <img class="Img-Presentacion" src="Imagenes/Marcas Asociadas/marcas asociadas.jpg">
             </div>
         </section>
         <section class="margen-section1">
@@ -96,17 +109,19 @@
     </main>
 
     <footer id="footer">
-        <section class="footer">
-            <div>
-                <h2>MAPA</h2>
-            </div>
-
-            <div>
-                <h2>LOGO</h2>
-            </div>
-
-            <div>
-                <h2>DIRECCION</h2>
+        <section class="footer-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <img class="Img-Logo2" src="./Imagenes/Mapa.JPG" alt="MAPA">
+                    </div>
+                    <div class="col">
+                        <img class="Img-Logo2" src="./Imagenes/Dist.PNG" alt="LOGO">
+                    </div>
+                    <div class="col">
+                        <img class="Img-Logo2" src="./Imagenes/DatosEmpresa.jpg" alt="INFO">
+                    </div>
+                </div>
             </div>
         </section>
     </footer>
