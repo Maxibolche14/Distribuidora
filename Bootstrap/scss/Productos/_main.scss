@@ -1,0 +1,44 @@
+@import 'mapa';
+
+.margen-section {
+    margin-top: 20px;
+
+    .fondo {
+        flex-flow: row nowrap;
+        align-items: center;
+        text-align: -webkit-center;
+        background-color: map-get($colores, presentacionbg);
+
+        h3 {
+            font-family: Cursive;
+            color: map-get($colores, textoproducto);
+        }
+    }
+}
+
+.margen-section {
+    margin-top: 20px;
+
+    .Grid-Presentacion {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding: 60px;
+        gap: 5px;
+        text-align: -webkit-center;
+
+        .table {
+            border: 4px solid black;
+        }
+    }
+}
+
+.Grid-Presentacion--FondoN {
+    @extend .Grid-Presentacion;
+    background: map-get($colores, presentacionbg);
+}
+
+.Grid-Presentacion--FondoB {
+    @extend .Grid-Presentacion;
+    background: white;
+}
