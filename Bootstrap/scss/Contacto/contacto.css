@@ -59,57 +59,26 @@
   width: 100%;
 }
 
-.margen-section {
-  margin-top: 20px;
-}
-
-.margen-section .fondo {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: -webkit-center;
-  background-color: #cf9c3b;
-}
-
-.margen-section .fondo h3 {
-  font-family: Cursive;
-  color: #941111;
-}
-
-.margen-section {
-  margin-top: 20px;
-}
-
-.margen-section .Grid-Presentacion, .margen-section .Grid-Presentacion--FondoN, .margen-section .Grid-Presentacion--FondoB {
+.margen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
+      -ms-flex-flow: column;
+          flex-flow: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 60px;
-  gap: 5px;
-  text-align: -webkit-center;
+  padding: 30px;
+  -ms-flex-item-align: center;
 }
 
-.margen-section .Grid-Presentacion .table, .margen-section .Grid-Presentacion--FondoN .table, .margen-section .Grid-Presentacion--FondoB .table {
+.margen .margen-section {
+  margin-top: 20px;
   border: 4px solid black;
-}
-
-.Grid-Presentacion--FondoN {
-  background: #cf9c3b;
-}
-
-.Grid-Presentacion--FondoB {
-  background: white;
+  padding: 10px;
+  width: 700px;
 }
 
 .footer-section {
