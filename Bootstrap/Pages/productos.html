@@ -20,23 +20,36 @@
 
 <body class="grid">
     <header id="header">
-        <nav class="Menu-container">
-            <div class="Menu-item">
-                <a href="/Distribuidora/Bootstrap/index.html"> INICIO </a>
-            </div>
-            <div class="Menu-item">
-                <a href="/Distribuidora/Bootstrap/Pages/nosotros.html"> NOSOTROS </a>
-            </div>
-            <div class="Menu-intem">
-                <a href="/Distribuidora/Bootstrap/index.html">
+        <nav class="navbar navbar-danger navbar-expand-lg" style="background-color: #ffffff;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Distribuidora/Bootstrap/index.html">
                     <img class="Img-Logo" src="/Distribuidora/Bootstrap/Imagenes/Dist.png" alt="Logo">
                 </a>
-            </div>
-            <div class="Menu-item">
-                <a href="/Distribuidora/Bootstrap/Pages/productos.html"> PRODUCTOS </a>
-            </div>
-            <div class="Menu-item">
-                <a href="/Distribuidora/Bootstrap/Pages/contacto.html"> CONTACTO </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Distribuidora/Bootstrap/index.html"> INICIO </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Distribuidora/Bootstrap/Pages/nosotros.html"> NOSOTROS </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Distribuidora/Bootstrap/Pages/contacto.html"> CONTACTO </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Distribuidora/Bootstrap/Pages/productos.html"> PRODUCTOS </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">BUSCAR</button>
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
@@ -49,7 +62,7 @@
         </section>
         <section class="margen-section">
             <section class="Grid-Presentacion">
-                <table class="table table-warning">
+                <table class="table table-warning table-bordered">
                     <thead>
                         <tr class="table-dark">
                             <th scope="col">Código</th>
@@ -91,63 +104,213 @@
                         </tr>
                         <tr>
                             <th scope="row">6</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>ACEITE DE OLIVA EXTRA VIRGEN COLINAS DE GARZÓN 500ML</td>
+                            <td>COLINAS DE GARZÓN</td>
+                            <td>500ML</td>
                         </tr>
                         <tr>
                             <th scope="row">7</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>ARROZ SAMAN BLANCO 1KG</td>
+                            <td>SAMAN</td>
+                            <td>1KG</td>
                         </tr>
                         <tr>
                             <th scope="row">8</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>ARROZ SAMAN BLANCO 500G</td>
+                            <td>SAMAN</td>
+                            <td>500G</td>
                         </tr>
                         <tr>
                             <th scope="row">9</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>ARROZ BLUE PATNA 5KG</td>
+                            <td>BLUE PATNA</td>
+                            <td>5KG</td>
                         </tr>
                         <tr>
                             <th scope="row">10</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>AZÚCAR BLANCA AZUCARLITO 1KG</td>
+                            <td>AZUCARLITO</td>
+                            <td>1KG</td>
                         </tr>
                         <tr>
                             <th scope="row">11</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>PULPA DE TOMATE GOURMET 1L</td>
+                            <td>GOURMET</td>
+                            <td>1L</td>
                         </tr>
                         <tr>
                             <th scope="row">12</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>PULPA DE TOMATE CONAPROLE 1L</td>
+                            <td>CONAPROLE</td>
+                            <td>1L</td>
                         </tr>
                         <tr>
                             <th scope="row">13</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>HARINA 0000 LEADER PRICE 1KG</td>
+                            <td>LEADER PRICE</td>
+                            <td>1KG</td>
                         </tr>
                         <tr>
                             <th scope="row">14</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>HARINA 000 CAÑUELAS 1KG</td>
+                            <td>CAÑUELAS</td>
+                            <td>1KG</td>
                         </tr>
                         <tr>
                             <th scope="row">15</th>
-                            <td>ACEITE REINA 4/4L</td>
-                            <td>REINA</td>
-                            <td>4L</td>
+                            <td>REFRESCO COCA-COLA 3L</td>
+                            <td>COCA-COLA</td>
+                            <td>3L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16</th>
+                            <td>REFRESCO COCA-COLA X6/3L</td>
+                            <td>COCA-COLA</td>
+                            <td>18L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">17</th>
+                            <td>REFRESCO COCA-COLA 1.5L</td>
+                            <td>COCA-COLA</td>
+                            <td>1.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">18</th>
+                            <td>REFRESCO COCA-COLA X6/1.5L</td>
+                            <td>COCA-COLA</td>
+                            <td>9L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">19</th>
+                            <td>REFRESCO COCA-COLA 250ML</td>
+                            <td>COCA-COLA</td>
+                            <td>250ML</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">20</th>
+                            <td>REFRESCO COCA-COLA X6/250ML</td>
+                            <td>COCA-COLA</td>
+                            <td>1.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">21</th>
+                            <td>REFRESCO SCHWEPPES POMELO SIN AZÚCAR 3L</td>
+                            <td>SCHWEPPES</td>
+                            <td>3L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">22</th>
+                            <td>REFRESCO SCHWEPPES POMELO SIN AZÚCAR X6/3L</td>
+                            <td>SCHWEPPES</td>
+                            <td>18L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">23</th>
+                            <td>REFRESCO SCHWEPPES CITRUS 1.5L</td>
+                            <td>SCHWEPPES</td>
+                            <td>1.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">24</th>
+                            <td>REFRESCO SCHWEPPES CITRUS X6/1.5L</td>
+                            <td>SCHWEPPES</td>
+                            <td>9L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">25</th>
+                            <td>REFRESCO SPRITE SIN AZÚCAR 2.25L</td>
+                            <td>SPRITE</td>
+                            <td>2.25L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">26</th>
+                            <td>REFRESCO SPRITE SIN AZÚCAR X6/2.25L</td>
+                            <td>SPRITE</td>
+                            <td>13.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">27</th>
+                            <td>AGUA SALUS SIN GAS 1.5L</td>
+                            <td>SALUS</td>
+                            <td>1.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">28</th>
+                            <td>AGUA SALUS SIN GAS X6/1.5L</td>
+                            <td>SALUS</td>
+                            <td>9L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">29</th>
+                            <td>AGUA SALUS CON GAS 1.5L</td>
+                            <td>SALUS</td>
+                            <td>1.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">30</th>
+                            <td>AGUA SALUS CON GAS X6/1.5L</td>
+                            <td>SALUS</td>
+                            <td>9L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">31</th>
+                            <td>AGUA SALUS FRUTTÉ MANZANA 1.5L</td>
+                            <td>SALUS</td>
+                            <td>1.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">32</th>
+                            <td>AGUA SALUS FRUTTÉ NARANJA 1.5L</td>
+                            <td>SALUS</td>
+                            <td>1.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">33</th>
+                            <td>AGUA SALUS FRUTTÉ PERA 1.5L</td>
+                            <td>SALUS</td>
+                            <td>1.5L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">34</th>
+                            <td>AGUA SALUS BIDÓN 6.25L</td>
+                            <td>SALUS</td>
+                            <td>6.25L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">35</th>
+                            <td>YERBA BALDO 1KG</td>
+                            <td>BALDO</td>
+                            <td>1KG</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">36</th>
+                            <td>YERBA CANARIAS 1KG</td>
+                            <td>CANARIAS</td>
+                            <td>1KG</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">37</th>
+                            <td>YERBA LA SELVA PARA NERVIOSOS 1KG</td>
+                            <td>LA SELVA</td>
+                            <td>1KG</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">38</th>
+                            <td>SALSA KÉTCHUP HELLMANN'S 500G</td>
+                            <td>HELLMANN'S</td>
+                            <td>500G</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">39</th>
+                            <td>SALSA MAYONESA HELLMANN'S 500G</td>
+                            <td>HELLMANN'S</td>
+                            <td>500G</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">40</th>
+                            <td>MOSTAZA SAVORA 500G</td>
+                            <td>SAVORA</td>
+                            <td>500G</td>
                         </tr>
                     </tbody>
                 </table>

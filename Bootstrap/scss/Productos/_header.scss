@@ -1,34 +1,13 @@
 @import 'mapa';
 
-.Menu-container {
-    background-color: map-get($colores,menucontainerbg);
-    padding: 3px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    flex-grow: 1;
-    width: 100%;
-    align-items: center;
-
-    .Menu-item {
-        /*background-color: black;*/
-        border: 4px solid white;
-        width: 300px;
-        height: auto;
-        text-align: center;
-        background-color: map-get($colores,menucontainerbg);
-        color: map-get($colores,menuitemtext);
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 20px;
-
-        a{
-            color: map-get($colores,menuitemtext);
-        }
-    }
+.nav-item {
+    font-family: Impact;
+    font-size: 20px;
+    text-decoration: underline;
+    
 }
 
 .Img-Logo {
-    height: 90px;
+    height: 100px;
     width: 100%;
 }
