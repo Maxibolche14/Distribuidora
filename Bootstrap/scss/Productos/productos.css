@@ -12,7 +12,7 @@
       grid-template-columns: 1fr;
   -ms-grid-rows: 12% 100% 12%;
       grid-template-rows: 12% 100% 12%;
-  grid-row-gap: 5px;
+  grid-row-gap: 3px;
       grid-template-areas: "header header" "main main" "footer footer";
   width: 100%;
 }
@@ -57,14 +57,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 60px;
+  padding: 5px;
   gap: 5px;
   text-align: -webkit-center;
 }

@@ -21,9 +21,9 @@
 
     .Grid-Presentacion {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: wrap;
         align-items: center;
-        padding: 60px;
+        padding: 5px;
         gap: 5px;
         text-align: -webkit-center;
 
